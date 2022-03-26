@@ -1,0 +1,45 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background: green;
+width: 100%;
+
+}
+h1{
+color: goldenrod;
+text-align: center;
+padding: 1em;
+font-weight: 800;
+}
+p{
+text-align: center;
+padding: 0.85em;
+font-weight: bold;
+color: #fff;
+font-size: large;
+}
+#message-el{
+font-style: italic;
+}
+button{
+background: goldenrod;
+width: 150px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content:center ;
+margin: auto;
+border: none;
+border-radius: 3px;
+outline: none;
+color: #016f32;
+font-weight: bold;
+font-size: large;
+margin-top: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
